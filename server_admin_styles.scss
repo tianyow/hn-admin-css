@@ -146,7 +146,8 @@ body {
 .input-label {
 	display: inline-block;
 	float: left;
-	padding: 5px 10px;
+	line-height: 100%;
+	padding: 7px 10px;
 	min-width: 56px;
 }
 // DropDown List
@@ -806,18 +807,22 @@ th:last-child, td:last-child {
 	}
 }
 .hn-ws-broadcastWrap {
-	background: #3a4a52;
+
+background: #3a4a52;
 	border: 1px solid #0c767a;
-	display: none;
 	margin-top: -18px;
 	padding: 15px 5px;
 	position: absolute;
 	right: 20px;
-	z-index: 999;
-	width: 560px;
+	z-index: 995;
+	width: 600px;
+
 	@include dropShadow(0px,1px,3px,1px,#666666);
 	textarea {
-		width: 520px;
+		width: 550px;
+	}
+	.dropdown {
+		width: 100px;
 	}
 }
 
