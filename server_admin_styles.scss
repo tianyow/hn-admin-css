@@ -805,6 +805,21 @@ th:last-child, td:last-child {
 
 	}
 }
+.hn-ws-broadcastWrap {
+	background: #3a4a52;
+	border: 1px solid #0c767a;
+	display: none;
+	margin-top: -18px;
+	padding: 15px 5px;
+	position: absolute;
+	right: 20px;
+	z-index: 999;
+	width: 560px;
+	@include dropShadow(0px,1px,3px,1px,#666666);
+	textarea {
+		width: 520px;
+	}
+}
 
 /* Log DataTables ================ */
 .hn-dataTable-Box {
@@ -1099,6 +1114,7 @@ th:last-child, td:last-child {
 		background-position: left center;
 	}
 }
+/*
 .modal.hn-broadcast-modal {
 	width: 480px;
 	margin-left: -240px;
@@ -1114,9 +1130,13 @@ th:last-child, td:last-child {
 		background-position: left center;
 	}
 	textarea {
-		width: 436px;
+		width: 430px;
+	}
+	.input-label {
+		color: black;
 	}
 }
+*/
 .modal.hn-logout-modal {
 	width: 420px;
 	margin-left: -210px;
